@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch JS Todo list learn by concept clear</title>
+    <link rel="stylesheet" href="wishlist.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <style>
+        .icon {
+            font-size: 7rem;
+        }
+    </style>
+
+</head>
+  
+<body>
+    <!-- navbar -->
+    <nav> 
+        <div class="logo">
+          <h3><a href="nush.html" class="logo-name">Nush Fashion</a></h3>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <div class="dropdown">
+            <button class="dropbtn">Categories</button>
+            <div class="dropdown-content">
+              <a href="men_category.html">Men</a>
+              <a href="women-category.html">Women</a>
+              <a href="kids.html">Kids</a>
+            </div>
+            </div>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="login.html" id="login">Login</a></li>
+          <li><a href="wishlist.html" id="Wishlist">Wishlist</a></li>
+          <li><a href="contact.html">ContactUs</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    <!-- navbar -->
+    <div class="container">
+        <ul class="todo-list js-todo-list"></ul>
+        <div class="empty-state">
+            <h1 class="app-title">My wishlist</h1>
+            <i class="fas fa-tasks icon"></i>
+            <p class="empty-state__description">
+                Type in the below field 👇 and press enter to add your wishlist so that we can bring the product for you!!
+            </p>
+        </div>
+        <form class="formselect">
+            <input autofocus type="text" class="inputselect" placeholder="Eg: skirt">
+        </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/dd8c49730d.js" crossorigin="anonymous"></script>
+    <script src="wishlist.js"></script>
+
+
+</body>
+
+</html>
